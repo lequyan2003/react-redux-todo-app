@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux"
-import { filterTodos, markAllCompleted } from "../actions";
+import { filterTodos, markAllCompleted } from "../redux/actions";
 
 const FilterButton = () => {
     const dispatch = useDispatch();

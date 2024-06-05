@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useDispatch } from 'react-redux';
 import { FaToggleOn, FaToggleOff, FaTrash, FaCheck, FaTimes } from 'react-icons/fa';
-import { markCompleted, markIncompleted, removeTodo, toggleTodo } from '../actions';
+import { markCompleted, markIncompleted, removeTodo, toggleTodo } from '../redux/actions';
 
 const TodoItem = ({ todo, index }) => {
   const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { BsPlus, BsSearch } from "react-icons/bs"
 import { useDispatch } from "react-redux";
-import { addTodo, updateSearchTerm } from "../actions";
+import { addTodo, updateSearchTerm } from "../redux/actions";
 import FilterButton from "./FilterButton";
 import TodoList from "./TodoList";
 
